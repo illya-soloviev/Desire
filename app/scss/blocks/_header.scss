@@ -1,0 +1,15 @@
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+
+    &__btn {
+        background-color: transparent;
+        padding: 0;
+        border: 0;
+        cursor: pointer;
+    }
+}
