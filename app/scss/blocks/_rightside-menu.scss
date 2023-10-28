@@ -9,9 +9,10 @@
     max-width: 694px;
     padding-top: 40px;
     transition: all .6s;
+    transform: translateX(500%);
 
-    &--close {
-        transform: translateX(500%);
+    &--show {
+        transform: translateX(0);
     }
 
     &__close {
