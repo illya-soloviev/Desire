@@ -1,0 +1,69 @@
+.rightside-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+    max-width: 694px;
+    padding-top: 40px;
+    transition: all .6s;
+
+    &--close {
+        transform: translateX(500%);
+    }
+
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 26px;
+        height: 26px;
+        margin-left: 47px;
+        margin-bottom: 57px;
+        cursor: pointer;
+    }
+
+    &__content {
+        max-width: 483px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    &__title {
+        color: $black;
+        @extend %title-font;
+        font-size: 36px;
+        line-height: 51px;
+        padding-bottom: 20px;
+        margin-bottom: 17px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 252px;
+            height: 1px;
+            background: #6D7278;
+            margin: 0 auto;
+        }
+    }
+
+    &__text {
+        color: $default;
+        margin-bottom: 75px;
+    }
+
+    &__image {
+        max-width: 483px;
+    }
+}
