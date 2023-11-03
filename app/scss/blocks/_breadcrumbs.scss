@@ -1,6 +1,8 @@
 .breadcrumbs {
     padding: 13px 0 14px;
     background-color: rgba(#DFDFDF, .5);
+    position: relative;
+    z-index: 100;
 
     &__list {
         display: flex;

@@ -15,6 +15,13 @@ $(function () {
         autoplay: true
     });
 
+    $('.contact-slider__inner').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 10,
+        slidesToScroll: 10
+    });
+
     var mixer = mixitup('.gallery__inner', {
         load: {
             filter: '.living-room'
