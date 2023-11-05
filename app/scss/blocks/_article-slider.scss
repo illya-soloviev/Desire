@@ -1,0 +1,26 @@
+.article-slider {
+    &__box {
+        position: relative;
+    }
+
+    &__arrow {
+        background: transparent;
+        padding: 0;
+        border: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 15;
+        cursor: pointer;
+    }
+
+    &__arrowleft {
+        left: 0;
+        margin-left: 16px;
+    }
+
+    &__arrowright {
+        right: 0;
+        margin-right: 16px;
+    }
+}
