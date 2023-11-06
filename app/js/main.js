@@ -8,6 +8,10 @@ $(function () {
         $('.rightside-menu').removeClass('rightside-menu--show');
     });
 
+    $('.header__btn-menu').on('click', () => {
+        $('.menu').toggleClass('menu--open');
+    });
+
     $('.top__slider').slick({
         arrows: false,
         dots: true,

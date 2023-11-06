@@ -1,3 +1,13 @@
 .logo {
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        margin: 0;
+    }
+
+    @media (max-width: 540px) {
+        order: -1;
+        position: relative;
+        z-index: 12;
+    }
 }
