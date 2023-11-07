@@ -5,6 +5,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    @media (max-width: 768px) {
+        padding: 70px 0 55px;
+        min-height: auto;
+    }
+
     &__title {
         max-width: 731px;
         color: $black;
