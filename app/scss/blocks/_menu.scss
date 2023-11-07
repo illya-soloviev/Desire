@@ -64,6 +64,10 @@
             left: 0;
             right: 0;
             background-color: rgba($black, .7);
+
+            @media (max-width: 540px) {
+                display: none;
+            }
         }
     }
 }

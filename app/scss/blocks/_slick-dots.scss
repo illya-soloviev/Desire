@@ -1,0 +1,32 @@
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	li {
+		@media (max-width: 650px) {
+			margin: 0 5px;
+		}
+
+		@media (max-width: 375px) {
+			margin: 0 1px;
+		}
+	}
+
+	li.slick-active {
+		button {
+			background-color: #FFEF35;
+		}
+	}
+
+	button {
+		border: none;
+		background-color: $black;
+		padding: 0;
+		font-size: 0;
+		border-radius: 50%;
+		width: 8px;
+		height: 8px;
+		margin: 0 15px;
+	}
+}
