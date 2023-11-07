@@ -23,4 +23,27 @@
         font-size: 16px;
         line-height: 23px;
     }
+
+    .blog__category-title,
+    .blog__tags-title,
+    .recent-posts__title {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .blog__item-title {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .blog__blockquote-author {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .blog-one__comments-name,
+    .blog-one__form-title {
+        font-size: 16px;
+        line-height: 27px;
+    }
 }

@@ -4,6 +4,10 @@
     &__inner {
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: 1040px) {
+            flex-wrap: wrap;
+        }
     }
 
     &__category {
@@ -56,6 +60,10 @@
 
     &__items {
         max-width: 730px;
+
+        @media (max-width: 1040px) {
+            max-width: 100%;
+        }
     }
 
     &__item {
@@ -64,6 +72,11 @@
 
     &__item-img {
         max-width: 730px;
+
+        @media (max-width: 1040px) {
+            width: 100%;
+            max-width: 100%;
+        }
     }
 
     &__item-info {

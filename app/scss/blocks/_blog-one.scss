@@ -12,6 +12,10 @@
             line-height: 38px;
             padding: 0 40px;
             margin-bottom: 30px;
+
+            @media (max-width: 375px) {
+                padding: 0 20px;
+            }
         }
 
         .blog__blockquote-author {
@@ -57,6 +61,10 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 35px;
+
+        @media (max-width: 540px) {
+            padding: 30px 0;
+        }
     }
 
     &__link {
@@ -73,6 +81,10 @@
             transform: translateY(-50%);
             width: 12px;
             height: 23px;
+        }
+
+        @media (max-width: 540px) {
+            font-size: 0;
         }
     }
 
@@ -108,6 +120,10 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 40px;
+
+        @media (max-width: 540px) {
+            flex-wrap: wrap;
+        }
     }
 
     &__comments-avatar {
@@ -115,10 +131,20 @@
         height: 64px;
         object-fit: cover;
         border-radius: 50%;
+
+        @media (max-width: 540px) {
+            width: 45px;
+            height: 45px;
+        }
     }
 
     &__comments-info {
         margin-left: 13px;
+
+        @media (max-width: 540px) {
+            margin-top: -46px;
+            margin-left: 0;
+        }
     }
 
     &__comments-name {
@@ -126,12 +152,20 @@
         @extend %title-font;
         font-size: 16px;
         line-height: 23px;
+
+        @media (max-width: 540px) {
+            margin-left: 55px;
+        }
     }
 
     &__comments-date {
         margin-bottom: 10px;
         color: #A1A1A1;
         font-size: 14px;
+
+        @media (max-width: 540px) {
+            margin-left: 55px;
+        }
     }
 
     &__reply {
@@ -143,6 +177,10 @@
         font-size: 14px;
         font-weight: 600;
         cursor: pointer;
+
+        @media (max-width: 540px) {
+            margin-left: 0;
+        }
     }
 
     &__form {
@@ -187,6 +225,10 @@
             font-family: Open Sans;
             font-size: 16px;
             font-weight: 400;
+        }
+
+        @media (max-width: 540px) {
+            width: 100%;
         }
     }
 
